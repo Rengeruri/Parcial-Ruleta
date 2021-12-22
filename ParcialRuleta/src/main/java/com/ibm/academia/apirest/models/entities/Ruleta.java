@@ -49,9 +49,6 @@ public class Ruleta implements Serializable{
 	@Max(value = 36)
 	private Integer numeroGanador;
 	
-	//@Column(name = "color")
-	//private String color;
-	
 	@Column(name = "estado_apuesta")
 	private String estadoApuesta;
 	
